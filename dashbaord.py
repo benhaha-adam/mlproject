@@ -90,7 +90,6 @@ if __name__ == "__main__":
         model, rmse, r2 = train_price_model(df, save_path='price_model.joblib')
     except NameError:
         print("Dataframe 'df' not found. Run data loading section first.")
-```# filepath: c:\Users\benha\OneDrive\Bureau\adam bh été 2025\dashbaord.py
 # ...existing code...
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -182,4 +181,4 @@ if __name__ == "__main__":
     try:
         model, rmse, r2 = train_price_model(df, save_path='price_model.joblib')
     except NameError:
-        print("Dataframe 'df' not found. Run data
+        print("Dataframe 'df' not found. Run data generation first.")
